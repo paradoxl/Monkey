@@ -9,7 +9,7 @@ def typeShakespeare(scriptRead):
     else:
         return (monkeyTyped[:-1])
 
-script = open('test.txt','r') # opens the files
+script = open('guten.txt','r') # opens the files
 scriptRead = script.read()
 script.close()
 
