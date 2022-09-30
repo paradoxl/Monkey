@@ -23,5 +23,6 @@ while len(monkeyTyped) != len(scriptRead): ## infinite loop ... unless the monke
     if len(monkeyTyped) >= 7:
         monkeyTyped = "'"+monkeyTyped+"'"
         print (monkeyTyped, keyPresses)
+        quit()
     if keyPresses%10000==0:
         print (keyPresses)
